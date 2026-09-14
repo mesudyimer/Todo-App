@@ -116,13 +116,13 @@ const reset = () => {
 };
 
 
-// OPEN FORM
+
 taskbtn.addEventListener("click", () => {
     opentask.classList.toggle("hidden");
 });
 
 
-// CLOSE FORM
+
 closetaskbtn.addEventListener("click", () => {
 
     const inputvalue =
@@ -141,20 +141,20 @@ closetaskbtn.addEventListener("click", () => {
 });
 
 
-// CANCEL DIALOG
+
 canclebtn.addEventListener("click", () => {
     confirmclosedialog.close();
 });
 
 
-// DISCARD
+
 discardbtn.addEventListener("click", () => {
     confirmclosedialog.close();
     reset();
 });
 
 
-// ADD / UPDATE
+
 addupdatetask.addEventListener("click", (e) => {
     e.preventDefault();
     addOrUpdate();
